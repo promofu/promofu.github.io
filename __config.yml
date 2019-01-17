@@ -1,0 +1,19 @@
+
+repository: promofu/promofu.github.io
+# provide title and description instead of repo and readme.md
+title: [ProMoFu's Lab Pages]
+description: [... musings on hacking and life]
+
+show_downloads: false
+google_analytics: [Your Google Analytics tracking ID]
+
+exclude:
+  - _bundle/
+  - _ref/
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - README.md
+  - build_it.sh
+  - clean_it.sh
+  - serve_it.sh

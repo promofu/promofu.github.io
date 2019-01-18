@@ -73,16 +73,16 @@ social:
 
 # Analytics
 analytics:
-  provider               :  false #"google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "custom" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-132789474-1"
 
 
 # Site Author
 author:
   name             : "ProMoFu"
   avatar           : "profile.png"
-  bio              : "... musings on hacking and life"
+  bio              : "... musings on hacking and life in general"
   location         : Planet Earth # "Neu-Ulm, Germany"
   employer         : # https://jsoft.de
   googlescholar    : # "http://yourfullgooglescholarurl.com"

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Sitemap"
+title: "sitemap"
 permalink: /sitemap/
 author_profile: true
 ---
@@ -12,17 +12,17 @@ A list of all the posts and pages found on the site.
 For all you robots out there I made an [XML version]({{ base_path }}/sitemap.xml)
 available for digesting as well.
 
-<h2>Pages</h2>
+<h2>pages</h2>
 {% for post in site.pages %}
   {% include archive-single.html %}
 {% endfor %}
 
-<h2>Posts</h2>
+<h2>posts</h2>
 {% for post in site.posts %}
   {% include archive-single.html %}
 {% endfor %}
 
-{% capture written_label %}'None'{% endcapture %}
+{% capture written_label %}'none'{% endcapture %}
 
 {% for collection in site.collections %}
 {% unless collection.output == false or collection.label == "posts" %}

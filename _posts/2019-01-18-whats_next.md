@@ -1,8 +1,8 @@
 ---
-title: "What's next ?!?"
-date: 2019-01-18
-modified: 2019-01-22
-permalink: /posts/2019/01/18-whats_next/
+title:      "What's next ?!?"
+date:       2019-01-18
+modified:   2019-01-22
+#permalink:  /posts/2019/01/18-whats_next/
 categories:
   - tech
 tags:

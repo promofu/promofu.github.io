@@ -1,3 +1,4 @@
 _site/
 _bundle/
 .sass-cache/
+.git-metadata/

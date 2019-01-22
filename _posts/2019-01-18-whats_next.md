@@ -1,13 +1,15 @@
 ---
-title: 'Now that I got the stuff running, what am I going to do with it ?'
+title: "What's next ?!?"
 date: 2019-01-18
+modified: 2019-01-22
 permalink: /posts/2019/01/18-whats_next/
+categories:
+  - tech
 tags:
   - hello world
   - markdown
   - kramdown
   - cheatsheet
-  - tech
 ---
 
 Now that I got the stuff running, what am I going to do with it ?
@@ -21,9 +23,7 @@ First and foremost the essential survival guides:
   a link to their [Quick Reference]
 - and a little bit of reference on differences to "[standard markdown]"
 
----
-
-# Here we go:
+## Here we go...
 
 ... but then again: what the heck ... look up all the glorious details in
 kramdowns very own [syntax reference] ;-)

@@ -1,14 +1,16 @@
 ---
-layout: single
-title:  "Draft Post"
-date: 2099-12-31
-permalink: /posts/2019/12/31-draft_post/
+layout:     single
+title:      "Draft Post"
+date:       2099-12-30
+modified:   2099-12-31
+#permalink:  /posts/2019/12/31-draft_post/
 header:
-  teaser: "unsplash-gallery-image-2-th.jpg"
+  teaser: "/images/500x300.png"
 categories: 
   - Jekyll
 tags:
   - edge case
+  - todo
 ---
 
 Monocle ipsum dolor sit amet handsome pariatur aliqua, hub remarkable irure commodo classic deserunt bespoke. Sunt commodo signature, Swiss minim flat white Tsutaya excepteur artisanal et Nordic laborum joy ANA. Beams mollit exquisite Ginza efficient dolore qui Comme des Garçons Winkreative Lufthansa bulletin global. Iconic sed liveable duis. Mollit dolore eu laboris Comme des Garçons hub pintxos sed eiusmod tote bag Shinkansen nisi consectetur pariatur. Nordic international quis finest Baggu dolore, bureaux hub hand-crafted ut joy sint Airbus A380.

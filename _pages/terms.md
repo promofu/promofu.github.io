@@ -1,7 +1,7 @@
 ---
-permalink: /terms/
-title: "Terms and Privacy Policy"
-modified: 2019-01-19
+title:      "Terms and Privacy Policy"
+modified:   2019-01-19
+permalink:  /terms/
 ---
 
 {% include base_path %}

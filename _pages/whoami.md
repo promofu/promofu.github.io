@@ -1,12 +1,12 @@
 ---
-layout: archive
-title: ".> whoami"
-permalink: /whoami/
-author_profile: true
+title:          ".> whoami"
+excerpt:        "Some jib jab about the owner / main author"
+permalink:      /whoami/
 redirect_from:
   - /resume
   - /cv
   - /me
+author_profile: true
 ---
 
 {% include base_path %}

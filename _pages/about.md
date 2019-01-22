@@ -1,11 +1,11 @@
 ---
-permalink: /
-title: "My Lab Pages"
-excerpt: "Welcome - and some whaddabboud on my Lab Pages"
-author_profile: true
+title:      "My Lab Pages"
+excerpt:    "Welcome - and some whaddabboud on my Lab Pages"
+permalink:  /
 redirect_from: 
   - /about/
   - /about.html
+author_profile: true
 ---
 
 This is the front page of my [Jekyll] powered website, based on the fantastic

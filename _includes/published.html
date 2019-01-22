@@ -1,19 +1,41 @@
+
+<!--
+  TODO: refactor this page / post -> not two almost equal blocks
+-->
+
 {% if page.date %}
 
   {% if page.date and page.modified %}
   <p class="page__date">
-    <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }},
-    <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>,
-    <strong>
-      Last Modification: <time datetime="{{ page.modified | date: '%Y-%m-%d' }}">{{ page.modified | date: "%B %d, %Y" }}</time>
-    </strong>
+    <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    <i class="fa fa-fw fa-pen-nib" aria-hidden="true"></i> <time datetime="{{ page.modified | date: '%Y-%m-%d' }}">{{ page.modified | date: "%B %d, %Y" }}</time>
+    <i class="fa fa-fw fa-user-edit" aria-hidden="true"></i> {{ page.git.last_commit.author_name }}
+    <i class="fa fa-fw fa-code-branch" aria-hidden="true"></i> {{ page.git.last_commit.short_sha }}
   </p>
   {% else %}
   <p class="page__date">
-    <strong>
-      <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}
-    </strong>
-    <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    <i class="fa fa-fw fa-user-edit" aria-hidden="true"></i> {{ page.git.last_commit.author_name }}
+    <i class="fa fa-fw fa-code-branch" aria-hidden="true"></i> {{ page.git.last_commit.short_sha }}
+  </p>
+  {% endif %}
+
+{% endif %}
+
+{% if post.date %}
+
+  {% if post.date and post.modified %}
+  <p class="page__date">
+    <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %d, %Y" }}</time>
+    <i class="fa fa-fw fa-pen-nib" aria-hidden="true"></i> <time datetime="{{ post.modified | date: '%Y-%m-%d' }}">{{ post.modified | date: "%B %d, %Y" }}</time>
+    <i class="fa fa-fw fa-user-edit" aria-hidden="true"></i> {{ post.git.last_commit.author_name }}
+    <i class="fa fa-fw fa-code-branch" aria-hidden="true"></i> {{ post.git.last_commit.short_sha }}
+  </p>
+  {% else %}
+  <p class="page__date">
+    <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %d, %Y" }}</time>
+    <i class="fa fa-fw fa-user-edit" aria-hidden="true"></i> {{ post.git.last_commit.author_name }}
+    <i class="fa fa-fw fa-code-branch" aria-hidden="true"></i> {{ post.git.last_commit.short_sha }}
   </p>
   {% endif %}
 

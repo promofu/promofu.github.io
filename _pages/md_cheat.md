@@ -1,10 +1,14 @@
 ---
-permalink: /markdown/
-title: "Markdown"
-author_profile: true
+layout:     single
+title:      "Markdown"
+excerpt:    "A simple cheatsheet for Markdown stuff"
+permalink:  /md/
 redirect_from: 
-  - /md/
+  - /markdown/
   - /markdown.html
+  - /cheat
+  - /cheatsheet
+author_profile: true
 ---
 
 ## Locations of key files/directories

@@ -1,11 +1,13 @@
 ---
-layout: archive
-title: "sitemap"
-permalink: /sitemap/
+layout:         archive
+title:          "sitemap"
+permalink:      /sitemap/
 author_profile: true
 ---
 
 {% include base_path %}
+
+<p class="hint">This page needs some cleanup ... WIP</p>
 
 A list of all the posts and pages found on the site.
 
@@ -14,12 +16,16 @@ available for digesting as well.
 
 <h2>pages</h2>
 {% for post in site.pages %}
-  {% include archive-single.html %}
+  {% if post.sitemap != false %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
 <h2>posts</h2>
 {% for post in site.posts %}
-  {% include archive-single.html %}
+  {% if post.sitemap != false %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
 {% capture written_label %}'none'{% endcapture %}

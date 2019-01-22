@@ -1,22 +1,20 @@
 ---
-layout: single
-title: "docker-machine and Raspbian ... a funny couple !"
-date: 2019-01-22
-#modified: xxxx-xx-xx
-permalink: /posts/2019/01/18-docker_machine_raspbian/
+layout:     single
+title:      "docker-machine and Raspbian ... a funny couple !"
+date:       2019-01-22
+#modified:   xxxx-xx-xx
+#permalink:  /posts/2019/01/22-docker_machine_raspbian/
 categories:
   - tech
   - container
   - raspberry
-  - todo
 tags:
-  - docker
-  - raspbian
-  - hypriot
   - admin
+  - docker
+  - hypriot
+  - raspbian
+  - todo
 ---
-
-## State of the Union
 
 Ok - it's 2019 ... and Raspbian has really gone a long way. But despite the fact
 that there is a growing number of Raspbian-Docker nerds out there... the

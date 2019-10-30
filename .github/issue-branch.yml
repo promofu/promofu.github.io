@@ -1,0 +1,12 @@
+branchName: short
+
+branches:
+  - label: enhancement
+    name: devel
+    prefix: fb/
+  - label: bug
+    name: devel
+    prefix: bf/
+  - label: request a post
+    name: devel
+    prefix: post/
